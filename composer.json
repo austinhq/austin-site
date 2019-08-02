@@ -27,7 +27,10 @@
         "source": "https://github.com/austinhq/austin-site"
     },
     "require": {
-        "php": ">=7.3.0"
+        "php": ">=7.3",
+        "composer/composer": "^1.8",
+        "monolog/monolog": "^1.24",
+        "psr/log": "^1.1"
     },
     "require-dev": {},
     "autoload": {
@@ -40,6 +43,10 @@
     "config": {
         "platform": {
             "php": "7.3.8"
-        }
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "start": "Austin\\Site\\Application::startApplication"
     }
 }
