@@ -1,0 +1,45 @@
+{
+    "name": "austin/site",
+    "description": "The Austin Website",
+    "keywords": ["php", "framework", "austin"],
+    "homepage": "https://github.com/austinhq/austin-site/",
+    "type": "project",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Anton Vorobyev",
+            "email": "anton@vorobyev.co",
+            "homepage": "https://vorobyev.co",
+            "role": "Project Founder"
+        },
+        {
+            "name": "The Austin Community",
+            "homepage": "https://github.com/austinhq/austin-site/"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/austinhq/austin-site/graphs/contributors"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/austinhq/austin-site/wiki",
+        "issues": "https://github.com/austinhq/austin-site/issues",
+        "source": "https://github.com/austinhq/austin-site"
+    },
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Austin\\Site\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.3.8"
+        }
+    }
+}
